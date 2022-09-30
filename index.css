@@ -2,6 +2,7 @@ html,
 body {
 	margin: 0;
 	font-family: 'Catamaran', sans-serif;
+	font-size: 1.2rem;
 }
 
 /*typography*/
@@ -73,7 +74,7 @@ header {
 }
 
 label {
-	font-size: 14px;
+	font-size: 1rem;
 	padding: 3px;
 	width: 100%;
 	cursor: pointer;
@@ -83,6 +84,7 @@ label {
 	background-color: #fff0ee;
 	color: #bd301d;
 	font-weight: bold;
+	accent-color: #bd301d;
 }
 
 .radio:last-child {
@@ -103,6 +105,7 @@ input[type='radio'] {
 .gifs-check-label {
 	width: unset;
 	margin-right: 5px;
+	font-size: 0.8rem;
 }
 
 .get-image-btn {
